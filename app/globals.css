@@ -138,4 +138,56 @@ nav a {
 .cta h2 {
   font-size: 30px;
   margin-bottom: 20px;
+}  @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .navbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .btn-group {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
 }
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .navbar nav a {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
